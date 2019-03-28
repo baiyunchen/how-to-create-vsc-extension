@@ -29,7 +29,7 @@ yo code
 
 执行命令后，是下面一番景象：
 
-![yo code](imgs\yo.png)
+![yo code](imgs/yo.png)
 
 这里我们先选择New Code Snippets（代码片段）
 
@@ -42,7 +42,7 @@ yo code
 
 完事儿之后，就会帮你创建出来一个`hello-world`的文件夹，里面创建好各种需要的文件，我们用VSC打开这个文件夹，大概是这样一个画风：
 
-![file list](imgs\file-list.png)
+![file list](imgs/file-list.png)
 
 我们打开`snippets\snippets.json`文件，并将其内容改为如下：
 
@@ -297,7 +297,7 @@ A 'repository' field is missing from the 'package.json' manifest file.
 
 重新执行上面的打包命令，他就会自动生成出一个`hello-world-0.0.2.vsix`文件。
 
-![vsce-package](imgs\vsce-package.png)
+![vsce-package](imgs/vsce-package.png)
 
 ### 3.5 安装扩展
 
@@ -305,8 +305,13 @@ A 'repository' field is missing from the 'package.json' manifest file.
 
 首先，在VS Code中按`F1`,并选择`Extensions:Install from VSIX...`这个选项，然后在弹出框中选择刚才通过vsce打包出来的`hello-world-0.0.2.vsix`文件即可安装完成。
 
-![install](imgs\install-from-vsix.png)
+![install](imgs/install-from-vsix.png)
 
 安装完成后，我们可以在扩展中找到我们的扩展：
 
-~![after-install](imgs\after-install.png)
+~![after-install](imgs/after-install.png)
+
+## 4. 相关资料推荐
+
+- 官网文档：<https://code.visualstudio.com/api>
+- 官方Demo:<https://github.com/Microsoft/vscode-extension-samples>
