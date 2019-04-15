@@ -1,0 +1,24 @@
+{
+    "name": "hello-world",
+    "displayName": "hello-world",
+    "description": "it's a demo",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "publisher": "jax",
+    "repository": {
+        "url": "https://github.com/"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
